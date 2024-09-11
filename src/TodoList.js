@@ -1,7 +1,7 @@
 export default function TodoList (props) {
 return(
 <section> 
-<h1>Дела</h1>
+<h1>Backlog</h1>
 <table className="table is-hoverable is-fullwidth">
 <tbody>
   {props.list.map ((item)=>(
