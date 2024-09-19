@@ -26,6 +26,7 @@ onClick={(e) => props.setDone(item.key)}
 <button
 className="button is-danger" 
 title="Удалить" 
+onClick={ (e) => props.delete(item.key)}
 disabled={item.done}
 >
   &#9746;
